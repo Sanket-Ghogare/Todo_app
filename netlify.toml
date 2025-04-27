@@ -1,0 +1,13 @@
+[build]
+  command = "npm run build" # or "yarn build"
+  publish = "dist"          # Vite uses "dist" instead of "build" by default
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Content-Type = "text/javascript"
+
+[[headers]]
+  for = "/*.mjs"
+  [headers.values]
+    Content-Type = "text/javascript"
