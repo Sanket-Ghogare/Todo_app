@@ -258,7 +258,7 @@ const TodoList = () => {
                   onChange={(e) => setUser(e.target.value)} 
                   className="px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white"
                 >
-                  {/* <option value="AP">Arru</option> */}
+                  <option value="AP">Arru</option>
                   <option value="SG">Sanket</option>
                 </select>
               </div>

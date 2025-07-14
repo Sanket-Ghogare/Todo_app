@@ -116,7 +116,7 @@ const TodoItem = ({ todo, onDelete, onUpdate, onToggleComplete }) => {
                 <span className={`inline-flex items-center px-2 py-1 rounded-full text-xs font-medium ${
                   todo.user === "AP" ? "bg-blue-100 text-blue-800" : "bg-green-100 text-green-800"
                 }`}>
-                  {todo.user === "AP" ? "Arru" : "Sanky"}
+                  {todo.user === "AP" ? "Arru" : "Sanku"}
                 </span>
                 <span className="text-xs text-gray-500">
                   {todo.timestamp && new Date(todo.timestamp.toDate ? todo.timestamp.toDate() : todo.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
